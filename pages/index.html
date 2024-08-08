@@ -8,6 +8,7 @@
   </head>
   <body>
     <!-- 載入外部html資料夾使用 -->
+    <!-- 這裡要寫JS(node.js中EJS的語法) -->
     <%- include('./layout/header'); -%>
 
     <h1 class="index-title">我是首頁</h1>
@@ -15,6 +16,7 @@
 
     <%- include('./layout/footer'); -%>
 
+    <!-- 這行不要去動它 （Vite Dev 模式的核心） -->
     <script type="module" src="../main.js"></script>
   </body>
 </html>
